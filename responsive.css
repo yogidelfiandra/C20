@@ -1,7 +1,59 @@
 /* Tablet */
 @media all and (max-width: 1000px) {
+  nav ul {
+    width: 40%;
+  }
+
+  nav ul li a {
+    font-size: 16px;
+  }
+
+  .text-hero h4 {
+    font-size: 18px;
+  }
+
+  .text-hero h1 {
+    font-size: 44px;
+  }
+
+  .text-hero h2 {
+    font-size: 24px;
+  }
+
+  .btn {
+    padding: 9px 18px;
+    color: white;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .picture-portfolio img {
+    width: 290px;
+    height: 212px;
+  }
 }
 
 /* Samartphone */
 @media all and (max-width: 670px) {
+  nav ul {
+    display: none;
+  }
+
+  nav .menu-icon {
+    display: block;
+  }
+
+  .picture-portfolio img {
+    display: none;
+  }
+
+  .hero-content {
+    padding-top: 80px;
+    padding-bottom: 30px;
+  }
+
+  .text-hero {
+    padding: 0;
+  }
 }

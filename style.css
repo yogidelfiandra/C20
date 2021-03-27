@@ -1,6 +1,132 @@
+/* Pengaturan Umum */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+}
+
 /* HEADER */
+nav {
+  display: flex;
+  position: fixed;
+  padding: 0 80px;
+  width: 100%;
+  justify-content: space-between;
+  background-color: #dc143c;
+}
+
+.header-logo h4 {
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 7px 0;
+}
+
+nav .menu-icon {
+  color: white;
+  float: right;
+  font-size: 30px;
+  padding: 7px 0;
+  display: none;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 15px 0;
+  width: 25%;
+  justify-content: space-between;
+}
+
+nav ul li a {
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+nav ul li a:hover {
+  font-weight: 500;
+}
 
 /* HERO HEADER */
+.hero-content {
+  width: 100%;
+  padding: 50px 0;
+}
+
+.hero-content .container {
+  display: flex;
+  padding: 0 80px;
+  justify-content: space-between;
+}
+
+.text-hero {
+  padding: 85px 0;
+}
+
+.text-hero h4 {
+  font-size: 27px;
+  margin-bottom: 5px;
+  font-weight: 500px;
+}
+
+.text-hero h1 {
+  font-size: 65px;
+  margin-bottom: 5px;
+  font-weight: 700px;
+}
+
+.text-hero h2 {
+  font-size: 42px;
+  font-weight: 700px;
+}
+
+.btn {
+  padding: 10px 21px;
+  color: white;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.submit {
+  background-color: #dc143c;
+  box-shadow: 0 7px #e6748b;
+}
+
+.btn:hover {
+  color: #dc143c;
+  border: 2px solid #dc143c;
+}
+
+.btn:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.btn-wrapper {
+  margin-top: 25px;
+}
+
+.submit:hover {
+  background-color: white;
+}
+
+.picture-portfolio {
+  display: flex;
+  padding: 49px 0;
+  position: relative;
+}
 
 /* SECTION CONTENT */
 

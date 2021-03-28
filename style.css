@@ -28,6 +28,7 @@ header {
   font-size: 30px;
   font-weight: 700;
   padding: 7px 0;
+  cursor: pointer;
 }
 #menu-btn,
 #cancel-btn {
@@ -195,12 +196,12 @@ header ul li a:hover {
 /* END SERVICES */
 /*START TEAMS */
 .team {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .teams .container {
   padding: 0 80px;
-  width:100%;
+  width: 100%;
 }
 
 .teams .container .header {
@@ -224,10 +225,10 @@ header ul li a:hover {
   text-align: center;
   background-color: #222;
   border-radius: 8px;
-  margin : 20px 18px;
+  margin: 20px 18px;
   width: 306px;
   height: 274px;
-  position:center;
+  position: center;
 }
 
 .teams .container .content .list-teams:hover {
@@ -247,13 +248,13 @@ header ul li a:hover {
   height: 150px;
   column-fill: auto;
   margin-top: 10px;
-  border: 5px solid #DC143C;
+  border: 5px solid #dc143c;
   box-sizing: border-box;
   border-radius: 100%;
   position: center;
 }
 
-.list-teams h3{
+.list-teams h3 {
   margin: 10px 10px;
   font-family: Roboto;
   font-style: normal;

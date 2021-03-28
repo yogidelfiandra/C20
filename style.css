@@ -193,6 +193,87 @@ header ul li a:hover {
   font-family: roboto;
 }
 /* END SERVICES */
+/*START TEAMS */
+.team {
+  background-color: #FFFFFF;
+}
+
+.teams .container {
+  padding: 0 80px;
+  width:100%;
+}
+
+.teams .container .header {
+  text-align: center;
+  color: #000;
+  font-family: roboto;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  font-size: 24px;
+  line-height: 33px;
+}
+
+.teams .container .content ul {
+  display: flex;
+  cursor: pointer;
+}
+
+.teams .container .content .list-teams {
+  list-style: none;
+  flex: auto;
+  text-align: center;
+  background-color: #222;
+  border-radius: 8px;
+  margin : 20px 18px;
+  width: 306px;
+  height: 274px;
+  position:center;
+}
+
+.teams .container .content .list-teams:hover {
+  pointer-events: auto;
+  background-color: #dc143c;
+  transition: all 0.5s;
+}
+
+.list-teams:hover img {
+  pointer-events: all;
+  transition: all 0.5s;
+  border: 5px solid #fff;
+}
+
+.list-teams img {
+  width: 150px;
+  height: 150px;
+  column-fill: auto;
+  margin-top: 10px;
+  border: 5px solid #DC143C;
+  box-sizing: border-box;
+  border-radius: 100%;
+  position: center;
+}
+
+.list-teams h3{
+  margin: 10px 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
+  color: #fff;
+}
+
+.list-teams p {
+  margin: 10px 10px;
+  font-size: 16px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 19px;
+  color: #fff;
+  padding-bottom: 20px;
+}
+/*END TEAMS */
 
 /* FOOTER */
 .contact {
@@ -318,12 +399,25 @@ input[type="submit"] {
   background: #dc143c;
   color: rgb(255, 255, 255);
   font-size: 18px;
-  border-radius: 10px;
+  border-radius: 8px;
+}
+
+input[type="submit"]:hover {
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  outline: none;
+  background: #ffffff;
+  color: #dc143c;
+  font-size: 18px;
+  border-radius: 8px;
+  border: 2px solid #dc143c;
 }
 
 footer {
   text-align: center;
-  padding: 3px;
+  padding: 10px;
   background-color: #ffffff;
   color: #000;
+  font-size: 18px;
 }

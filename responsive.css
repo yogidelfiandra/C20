@@ -39,6 +39,23 @@
   .service .container .content .list-service p {
     padding-bottom: 15px;
   }
+  
+    /*teams */
+   .teams .container .content ul {
+    display: inline-block;
+  }
+  .teams .container .content .list-teams {
+    flex: none;
+    width: 80%;
+    margin: 20px auto;
+  }
+  .teams .container .content .list-teams h3 {
+    padding-bottom: 15px;
+  } 
+
+  .teams .container .content .list-teams p {
+    padding-bottom: 15px;
+  } 
 }
 
 /* Smartphone */
@@ -107,5 +124,49 @@
   }
   .service .container .content .list-service p {
     padding-bottom: 15px;
+  }
+
+  /* teams */
+   .teams .container .content ul {
+    display: inline-block;
+  }
+  .teams .container .content .list-teams {
+    flex: none;
+    width: 100%;
+    margin: 20px auto;
+  }
+  .teams .container .content .list-teams h3 {
+    padding-bottom: 15px;
+  } 
+
+  .teams .container .content .list-teams p {
+    padding-bottom: 15px;
+  }
+
+  /* contact form*/
+  .contact .container h2 {
+    font-size: 20px;
+  }
+
+  .contact .container .row100 .inputBox .text {
+    font-size: 14px;
+  }
+
+  .contact .container .row100 .inputBox input,
+  .contact .container .row100 .inputBox.textarea textarea {
+    font-size: 14px;
+  }
+
+  input[type="submit"] {
+    font-size: 14px;
+  }
+
+  input[type="submit"]:hover {
+    font-size: 14px;
+    border: 1px solid #dc143c;
+  }
+
+  footer {
+    font-size: 14px;
   }
 }

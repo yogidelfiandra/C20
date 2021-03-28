@@ -166,6 +166,59 @@ header ul li a:hover {
 }
 
 /* SECTION CONTENT */
+/* SERVICES */
+.service {
+  background-color: #414141;
+}
+.service .container {
+  padding: 0 80px;
+}
+.service .container .header {
+  text-align: center;
+  color: #fff;
+  font-family: roboto;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  font-size: 24px;
+}
+.service .container .content ul {
+  display: flex;
+  cursor: pointer;
+}
+.service .container .content .list-service {
+  list-style: none;
+  flex: auto;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: #222;
+  border-radius: 8px;
+  margin: 0 20px;
+}
+.service .container .content .list-service:hover {
+  pointer-events: auto;
+  background-color: #dc143c;
+  transition: all 0.5s;
+}
+.list-service:hover img {
+  pointer-events: all;
+  filter: invert(100%) sepia(3%) saturate(11%) hue-rotate(36deg) brightness(102%) contrast(101%);
+  transition: all 0.5s;
+}
+.list-service img {
+  width: 70px;
+  height: 70px;
+  column-fill: auto;
+  margin-top: 40px;
+  margin-bottom: 25px;
+  filter: invert(19%) sepia(78%) saturate(7218%) hue-rotate(342deg) brightness(89%) contrast(93%);
+}
+.list-service p {
+  margin: 15px 30px;
+  font-size: 16px;
+  font-family: roboto;
+}
+/* END SERVICES */
+
 
 /* FOOTER */
 .contact {

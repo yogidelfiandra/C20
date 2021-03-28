@@ -217,7 +217,7 @@ header ul li a:hover {
 }
 /* END SERVICES */
 /*START TEAMS */
-.team {
+.teams {
   background-color: #FFFFFF;
 }
 
@@ -250,7 +250,7 @@ header ul li a:hover {
   margin : 20px 18px;
   width: 306px;
   height: 274px;
-  position:center;
+  
 }
 
 .teams .container .content .list-teams:hover {

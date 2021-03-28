@@ -40,14 +40,14 @@
     padding-bottom: 15px;
   }
   
-    /*teams */
+     /*teams */
    .teams .container .content ul {
     display: inline-block;
   }
   .teams .container .content .list-teams {
     flex: none;
     width: 80%;
-    margin: 20px auto;
+    margin: 20px 100px;
   }
   .teams .container .content .list-teams h3 {
     padding-bottom: 15px;
@@ -126,7 +126,7 @@
     padding-bottom: 15px;
   }
 
-  /* teams */
+ /* teams */
    .teams .container .content ul {
     display: inline-block;
   }

@@ -1,10 +1,6 @@
 /* Tablet */
 @media all and (max-width: 1000px) {
-  nav ul {
-    width: 40%;
-  }
-
-  nav ul li a {
+  header ul li a {
     font-size: 16px;
   }
 
@@ -36,11 +32,49 @@
 
 /* Samartphone */
 @media all and (max-width: 670px) {
-  nav ul {
+  header ul {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    max-width: 350px;
+    background: #dc143c;
+    display: block;
+    top: 0;
+    left: -100%;
+    overflow-y: auto;
+    line-height: 50px;
+    padding: 50px 10px;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+  }
+
+  #menu-btn:checked ~ ul {
+    left: 0%;
+  }
+
+  #menu-btn:checked ~ .menu-icon {
     display: none;
   }
 
-  nav .menu-icon {
+  header ul li {
+    margin: 15px 10px;
+  }
+
+  header ul li a {
+    padding: 0 20px;
+    display: block;
+    font-size: 20px;
+  }
+
+  header ul .menu-cancel {
+    display: block;
+    position: absolute;
+    left: 300px;
+    top: 4px;
+    z-index: 5;
+  }
+
+  header .menu-icon {
     display: block;
   }
 

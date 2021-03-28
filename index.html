@@ -19,18 +19,21 @@
   </head>
   <body>
     <!-- START:Header -->
-    <nav>
+    <header>
       <div class="header-logo">
         <h4>Portfolio.</h4>
       </div>
-      <span class="fa fa-bars menu-icon"></span>
+      <input type="radio" name="slide" id="menu-btn" />
+      <input type="radio" name="slide" id="cancel-btn" />
       <ul>
+        <label for="cancel-btn" class="fa fa-times menu-cancel"></label>
         <li><a href="#">Home</a></li>
         <li><a href="#">Services</a></li>
         <li><a href="#">Teams</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
-    </nav>
+      <label for="menu-btn" class="fa fa-bars menu-icon"></label>
+    </header>
     <!-- END:Header -->
 
     <!-- START:Hero Content -->

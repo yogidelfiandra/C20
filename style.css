@@ -15,11 +15,12 @@ body {
 }
 
 /* HEADER */
-nav {
+header {
   display: flex;
   position: fixed;
   padding: 0 80px;
   width: 100%;
+  height: 50px;
   justify-content: space-between;
   background-color: #dc143c;
   z-index: 10;
@@ -32,36 +33,58 @@ nav {
   padding: 7px 0;
 }
 
-nav .menu-icon {
+#menu-btn,
+#cancel-btn {
+  display: none;
+}
+
+header ul .menu-cancel {
   color: white;
   float: right;
   font-size: 30px;
   padding: 7px 0;
+  align-items: center;
+  cursor: pointer;
   display: none;
 }
 
-nav ul {
+header .menu-icon {
+  color: white;
+  float: right;
+  font-size: 30px;
+  padding: 7px 0;
+  align-items: center;
+  display: none;
+  cursor: pointer;
+}
+
+header ul {
   display: flex;
   list-style: none;
   padding: 15px 0;
-  width: 25%;
-  justify-content: space-between;
+  /* width: 40%;
+  justify-content: space-between; */
 }
 
-nav ul li a {
+header ul li a {
   color: white;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 500;
+  padding: 6px 10px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  /* margin-left: 25px; */
 }
 
-nav ul li a:hover {
-  font-weight: 500;
+header ul li a:hover {
+  /* padding: 5px 6px; */
+  border: 1px solid white;
 }
 
 /* HERO HEADER */
 .hero-content {
   width: 100%;
-  padding: 50px 0;
+  padding-top: 50px;
 }
 
 .hero-content .container {
@@ -127,6 +150,19 @@ nav ul li a:hover {
   display: flex;
   padding: 49px 0;
   position: relative;
+  animation: animasigerak 3s ease;
+}
+
+@keyframes animasigerak {
+  from {
+    left: 600px;
+    top: 0px;
+  }
+
+  to {
+    left: 0px;
+    top: 0px;
+  }
 }
 
 /* SECTION CONTENT */

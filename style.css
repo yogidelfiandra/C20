@@ -4,11 +4,9 @@
   margin: 0;
   box-sizing: border-box;
 }
-
 a {
   text-decoration: none;
 }
-
 html,
 body {
   font-family: "Roboto", sans-serif;
@@ -25,19 +23,16 @@ header {
   background-color: #dc143c;
   z-index: 10;
 }
-
 .header-logo h4 {
   color: white;
   font-size: 30px;
   font-weight: 700;
   padding: 7px 0;
 }
-
 #menu-btn,
 #cancel-btn {
   display: none;
 }
-
 header ul .menu-cancel {
   color: white;
   float: right;
@@ -47,7 +42,6 @@ header ul .menu-cancel {
   cursor: pointer;
   display: none;
 }
-
 header .menu-icon {
   color: white;
   float: right;
@@ -57,13 +51,11 @@ header .menu-icon {
   display: none;
   cursor: pointer;
 }
-
 header ul {
   display: flex;
   list-style: none;
   padding: 15px 0;
 }
-
 header ul li a {
   color: white;
   font-size: 18px;
@@ -72,7 +64,6 @@ header ul li a {
   border-radius: 8px;
   transition: all 0.3s ease;
 }
-
 header ul li a:hover {
   border: 1px solid white;
 }
@@ -82,34 +73,28 @@ header ul li a:hover {
   width: 100%;
   padding-top: 50px;
 }
-
 .hero-content .container {
   display: flex;
   padding: 0 80px;
   justify-content: space-between;
 }
-
 .text-hero {
   padding: 85px 0;
 }
-
 .text-hero h4 {
   font-size: 27px;
   margin-bottom: 5px;
   font-weight: 500px;
 }
-
 .text-hero h1 {
   font-size: 65px;
   margin-bottom: 5px;
   font-weight: 700px;
 }
-
 .text-hero h2 {
   font-size: 42px;
   font-weight: 700px;
 }
-
 .btn {
   padding: 10px 21px;
   color: white;
@@ -117,44 +102,36 @@ header ul li a:hover {
   font-size: 18px;
   font-weight: 500;
 }
-
 .submit {
   background-color: #dc143c;
   box-shadow: 0 7px #e6748b;
 }
-
 .btn:hover {
   color: #dc143c;
   border: 2px solid #dc143c;
 }
-
 .btn:active {
   position: relative;
   top: 7px;
   box-shadow: none;
 }
-
 .btn-wrapper {
   margin-top: 25px;
 }
-
 .submit:hover {
   background-color: white;
 }
-
 .picture-portfolio {
   display: flex;
   padding: 49px 0;
   position: relative;
   animation: animasigerak 3s ease;
 }
-
 @keyframes animasigerak {
   from {
     left: 600px;
     top: 0px;
   }
-
   to {
     left: 0px;
     top: 0px;

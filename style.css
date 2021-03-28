@@ -149,14 +149,18 @@ header ul li a:hover {
 }
 .service .container .header {
   text-align: center;
-  color: #fff;
-  font-family: roboto;
-  padding-top: 30px;
+  color: white;
+  padding: 40px 0;
+}
+.service .container .header h2 {
+  font-size: 28px;
+}
+.service .container .content {
   padding-bottom: 40px;
-  font-size: 24px;
 }
 .service .container .content ul {
   display: flex;
+  align-items: center;
   cursor: pointer;
 }
 .service .container .content .list-service {
@@ -188,12 +192,18 @@ header ul li a:hover {
   filter: invert(19%) sepia(78%) saturate(7218%) hue-rotate(342deg)
     brightness(89%) contrast(93%);
 }
+.list-service h3 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
 .list-service p {
   margin: 15px 30px;
   font-size: 16px;
-  font-family: roboto;
+  font-weight: 300;
 }
 /* END SERVICES */
+
 /*START TEAMS */
 .team {
   background-color: #ffffff;
@@ -207,71 +217,62 @@ header ul li a:hover {
 .teams .container .header {
   text-align: center;
   color: #000;
-  font-family: roboto;
-  padding-top: 30px;
-  padding-bottom: 40px;
-  font-size: 24px;
-  line-height: 33px;
+  padding-top: 40px;
+}
+.teams .container .header h2 {
+  font-size: 28px;
+  font-weight: 700;
+}
+.teams .container .content {
+  padding: 40px 0;
 }
 
 .teams .container .content ul {
   display: flex;
   cursor: pointer;
 }
-
 .teams .container .content .list-teams {
   list-style: none;
   flex: auto;
   text-align: center;
   background-color: #222;
   border-radius: 8px;
-  margin: 20px 18px;
+  margin: 0 18px;
   width: 306px;
-  height: 274px;
+  height: auto;
   position: center;
 }
-
 .teams .container .content .list-teams:hover {
   pointer-events: auto;
   background-color: #dc143c;
   transition: all 0.5s;
 }
-
-.list-teams:hover img {
+.list-teams img:hover {
   pointer-events: all;
   transition: all 0.5s;
-  border: 5px solid #fff;
+  border: 5px solid white;
 }
-
 .list-teams img {
   width: 150px;
   height: 150px;
   column-fill: auto;
-  margin-top: 10px;
-  border: 5px solid #dc143c;
-  box-sizing: border-box;
+  margin-top: 30px;
   border-radius: 100%;
   position: center;
 }
-
 .list-teams h3 {
-  margin: 10px 10px;
-  font-family: Roboto;
-  font-style: normal;
+  margin: 11px 10px 5px 10px;
   font-weight: 500;
   font-size: 25px;
   line-height: 29px;
-  color: #fff;
+  color: white;
 }
-
 .list-teams p {
-  margin: 10px 10px;
+  margin: 0 10px 10px 10px;
   font-size: 16px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   line-height: 19px;
-  color: #fff;
+  color: white;
   padding-bottom: 20px;
 }
 /*END TEAMS */
@@ -281,21 +282,19 @@ header ul li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
   background: #414141;
 }
-
 .contact .container {
   width: 80%;
-  padding: 20px;
+  padding: 40px 0;
 }
-
 .contact .container h2 {
   width: 100%;
-  color: #ffffff;
-  font-size: 36px;
+  color: white;
+  font-size: 28px;
+  font-weight: 700;
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 60px;
 }
 
 .contact .container .row100 {
@@ -308,8 +307,8 @@ header ul li a:hover {
 .contact .container .row100 .col {
   position: relative;
   width: 100%;
-  padding: 0 10px;
-  margin: 30px 0 10px;
+  padding: 0 10px 25px 10px;
+  margin-bottom: 25px;
   transition: 0.5s;
 }
 
@@ -317,7 +316,7 @@ header ul li a:hover {
   position: relative;
   width: 100%;
   height: 40px;
-  color: #ffffff;
+  color: white;
 }
 .contact .container .row100 .inputBox input,
 .contact .container .row100 .inputBox.textarea textarea {
@@ -339,7 +338,8 @@ header ul li a:hover {
   top: 0;
   left: 0;
   line-height: 40px;
-  font-size: 18px;
+  font-size: 16px;
+  font-weight: 400;
   padding: 0 10px;
   display: block;
   transition: 0.5s;
@@ -358,7 +358,7 @@ header ul li a:hover {
   display: block;
   width: 100%;
   height: 2px;
-  background: #ffffff;
+  background: white;
   transition: 0.5s;
   border-radius: 2px;
   pointer-events: none;
@@ -391,34 +391,28 @@ header ul li a:hover {
 .container .row100 .inputBox textarea:valid ~ .line {
   height: 100%;
 }
-
-input[type="submit"] {
-  border: none;
-  padding: 10px 15px;
-  cursor: pointer;
-  outline: none;
-  background: #dc143c;
-  color: rgb(255, 255, 255);
-  font-size: 18px;
-  border-radius: 8px;
+.btn-message {
+  padding: 40px 0 17px 0;
 }
-
-input[type="submit"]:hover {
-  border: none;
+.message {
   padding: 10px 15px;
-  cursor: pointer;
-  outline: none;
-  background: #ffffff;
-  color: #dc143c;
   font-size: 18px;
-  border-radius: 8px;
+  font-weight: 500;
+  background-color: #dc143c;
+  box-shadow: 0 7px #e6748b;
+  cursor: pointer;
+}
+.message:hover {
+  color: #dc143c;
+  background-color: white;
   border: 2px solid #dc143c;
 }
 
 footer {
   text-align: center;
   padding: 10px;
-  background-color: #ffffff;
+  background-color: white;
   color: #000;
-  font-size: 18px;
+  font-size: 16px;
+  font-weight: 400;
 }

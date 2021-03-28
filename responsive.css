@@ -29,32 +29,23 @@
 
   /* services */
   .service .container .content ul {
-    display: inline-block;
+    flex-wrap: wrap;
   }
   .service .container .content .list-service {
-    flex: none;
-    width: 80%;
-    margin: 0 auto;
-  }
-  .service .container .content .list-service p {
-    padding-bottom: 15px;
+    width: 20%;
+    margin: 0 10px;
   }
 
   /*teams */
+  .teams .container .content {
+    padding: 30px 0;
+  }
   .teams .container .content ul {
-    display: inline-block;
+    flex-wrap: wrap;
   }
   .teams .container .content .list-teams {
-    flex: none;
-    width: 80%;
-    margin: 20px auto;
-  }
-  .teams .container .content .list-teams h3 {
-    padding-bottom: 15px;
-  }
-
-  .teams .container .content .list-teams p {
-    padding-bottom: 15px;
+    width: 40%;
+    margin: 10px 10px;
   }
 }
 
@@ -107,70 +98,83 @@
   }
   .hero-content {
     padding-top: 80px;
-    padding-bottom: 30px;
+    padding-bottom: 46px;
     display: flex;
+    text-align: center;
     justify-content: center;
   }
   .text-hero {
     padding: 0;
-    justify-content: center;
-    align-items: center;
+  }
+  .btn-wrapper {
+    display: flex;
+  }
+  .btn {
+    width: 100%;
   }
 
   /* services */
+  .service .container .header {
+    padding-bottom: 30px;
+  }
   .service .container .content ul {
-    display: inline-block;
+    flex-direction: column;
   }
   .service .container .content .list-service {
-    flex: none;
-    width: 100%;
-    margin: 0 auto;
+    width: 60%;
+    margin: 10px 0;
   }
   .service .container .content .list-service p {
     padding-bottom: 15px;
   }
+  .list-service img {
+    width: 50px;
+    height: 50px;
+  }
+  .list-service h3 {
+    font-size: 20px;
+  }
+  .list-service p {
+    font-size: 14px;
+  }
 
   /* teams */
+  .teams .container .header h2 {
+    font-size: 24px;
+  }
+
   .teams .container .content ul {
-    display: inline-block;
+    flex-direction: column;
   }
   .teams .container .content .list-teams {
     flex: none;
-    width: 100%;
-    margin: 20px auto;
+    width: 80%;
+    margin: 10px auto;
   }
-  .teams .container .content .list-teams h3 {
-    padding-bottom: 15px;
+  .list-teams h3 {
+    font-size: 20px;
   }
-
-  .teams .container .content .list-teams p {
-    padding-bottom: 15px;
+  .list-teams p {
+    font-size: 14px;
   }
 
   /* contact form*/
   .contact .container h2 {
-    font-size: 20px;
+    font-size: 24px;
   }
-
   .contact .container .row100 .inputBox .text {
-    font-size: 14px;
+    font-size: 16px;
   }
-
   .contact .container .row100 .inputBox input,
   .contact .container .row100 .inputBox.textarea textarea {
-    font-size: 14px;
+    font-size: 16px;
   }
-
-  input[type="submit"] {
-    font-size: 14px;
+  .btn-message {
+    display: flex;
+    text-align: center;
   }
-
-  input[type="submit"]:hover {
-    font-size: 14px;
-    border: 1px solid #dc143c;
-  }
-
-  footer {
-    font-size: 14px;
+  .message {
+    font-size: 16px;
+    width: 100%;
   }
 }

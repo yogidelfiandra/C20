@@ -1,21 +1,20 @@
 /* Tablet */
 @media all and (max-width: 1000px) {
+  /* Header */
   header ul li a {
     font-size: 16px;
   }
 
+  /* Hero Content */
   .text-hero h4 {
     font-size: 18px;
   }
-
   .text-hero h1 {
     font-size: 44px;
   }
-
   .text-hero h2 {
     font-size: 24px;
   }
-
   .btn {
     padding: 9px 18px;
     color: white;
@@ -23,11 +22,11 @@
     font-size: 14px;
     font-weight: 500;
   }
-
   .picture-portfolio img {
     width: 290px;
     height: 212px;
   }
+
   /* services */
   .service .container .content ul {
     display: inline-block;
@@ -44,6 +43,7 @@
 
 /* Smartphone */
 @media all and (max-width: 670px) {
+  /* Hero */
   header ul {
     position: fixed;
     height: 100vh;
@@ -59,25 +59,20 @@
     box-shadow: 0 15px 15px rgba(0, 0, 0, 0.15);
     transition: all 0.3s ease;
   }
-
   #menu-btn:checked ~ ul {
     left: 0%;
   }
-
   #menu-btn:checked ~ .menu-icon {
     display: none;
   }
-
   header ul li {
     margin: 15px 10px;
   }
-
   header ul li a {
     padding: 0 20px;
     display: block;
     font-size: 20px;
   }
-
   header ul .menu-cancel {
     display: block;
     position: absolute;
@@ -85,23 +80,22 @@
     top: 4px;
     z-index: 5;
   }
-
   header .menu-icon {
     display: block;
   }
 
+  /* Hero Content */
   .picture-portfolio img {
     display: none;
   }
-
   .hero-content {
     padding-top: 80px;
     padding-bottom: 30px;
   }
-
   .text-hero {
     padding: 0;
   }
+
   /* services */
   .service .container .content ul {
     display: inline-block;

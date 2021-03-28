@@ -62,8 +62,6 @@ header ul {
   display: flex;
   list-style: none;
   padding: 15px 0;
-  /* width: 40%;
-  justify-content: space-between; */
 }
 
 header ul li a {
@@ -73,15 +71,13 @@ header ul li a {
   padding: 6px 10px;
   border-radius: 8px;
   transition: all 0.3s ease;
-  /* margin-left: 25px; */
 }
 
 header ul li a:hover {
-  /* padding: 5px 6px; */
   border: 1px solid white;
 }
 
-/* HERO HEADER */
+/* HERO CONTENT */
 .hero-content {
   width: 100%;
   padding-top: 50px;
@@ -201,7 +197,8 @@ header ul li a:hover {
 }
 .list-service:hover img {
   pointer-events: all;
-  filter: invert(100%) sepia(3%) saturate(11%) hue-rotate(36deg) brightness(102%) contrast(101%);
+  filter: invert(100%) sepia(3%) saturate(11%) hue-rotate(36deg)
+    brightness(102%) contrast(101%);
   transition: all 0.5s;
 }
 .list-service img {
@@ -210,7 +207,8 @@ header ul li a:hover {
   column-fill: auto;
   margin-top: 40px;
   margin-bottom: 25px;
-  filter: invert(19%) sepia(78%) saturate(7218%) hue-rotate(342deg) brightness(89%) contrast(93%);
+  filter: invert(19%) sepia(78%) saturate(7218%) hue-rotate(342deg)
+    brightness(89%) contrast(93%);
 }
 .list-service p {
   margin: 15px 30px;
@@ -218,7 +216,6 @@ header ul li a:hover {
   font-family: roboto;
 }
 /* END SERVICES */
-
 
 /* FOOTER */
 .contact {
